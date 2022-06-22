@@ -139,27 +139,40 @@
 
 // ## 10 - Random and max
 
-// let numbers1 = []
-// umbers = []
+let numbers = []
+
 // const max = 100
 // const min = 0
+// let Numbers = []
 
 
 
-// for(let i = 0; i < 20; i++){
+for(let i = 0; i < 20; i++){
 
-//   const random = Math.floor(Math.random() * max) + min
-//   umbers = numbers1.push[random]
+  numbers[i] = Math.floor(Math.random() * 20) + 0
 
-// }
+  // Numbers = array.push[random]
+  
+}
 
-// console.log(umbers)
+console.log(numbers)
 
+let max = 0
+
+for(let i = 0; i < numbers.length; i++){
+
+  if(i < numbers[i]){
+    max = numbers[i]
+  }
+
+}
+console.log(max)
 
 
 // - Créez un tableau vide
 //     - Avec une boucle for, ajoutez 20 entiers aléatoires entre 0 et 100
 // - Affichez ce tableau
+
 // - Avec une deuxième boucle for, trouvez l'entier le plus grand de votre tableau (pas le droit d'utiliser Math.max)
 
 
